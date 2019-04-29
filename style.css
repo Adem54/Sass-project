@@ -1,0 +1,139 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* 1 rem 10px */
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.container {
+  max-width: 117rem;
+  min-width: 24rem;
+  margin: auto;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-auto {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.header__top {
+  background-color: #252525;
+  height: 4rem;
+  font-size: 1.4rem;
+  color: #757575;
+}
+
+.header__top a {
+  color: #757575;
+  text-decoration: none;
+  line-height: 4rem;
+  padding: 0.5rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.header__top a:hover {
+  color: #fbd713;
+}
+
+.header__top .header__slogan {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.header__top-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__top-socials a {
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  margin-left: 1rem;
+  padding: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.header__top-socials a:hover {
+  background-color: #fbd713;
+  color: #252525;
+  border-color: #fbd713;
+}
+
+.header__container {
+  background-image: url("images/header-bg.jpg");
+  height: 15rem;
+}
+
+.header__container a {
+  color: #757575;
+  text-decoration: none;
+}
+
+.header__contact-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header__contact {
+  text-align: right;
+}
+
+.header__contact-description span {
+  display: block;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
